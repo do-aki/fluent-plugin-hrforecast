@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler'
 require 'simplecov'
+require 'coveralls'
 SimpleCov.start
 
 begin
