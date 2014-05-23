@@ -8,7 +8,7 @@ This plugin code was wittern based on [fluent-plugin-growthforecast](https://git
 
 ## Configuration
 
-### Sample2
+### Sample1
 Tag is `metrics` and message is `{'field1':10, 'field2':200, 'others':3000}`.
 
 By follow config, send 2 numbers and time specified input plugin to HRForecast.
