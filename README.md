@@ -63,27 +63,40 @@ By follow config, send a floating number and formatted date to HRForecast.
  You can customize graph_path using `${tag}` and `${key_name}` placeholders.
 
 * __name_keys__ (Either of this or __name_key_pattern__ is required)
+
  Specify field names of sending number. Separate by comma.
 
 * __name_key_pattern__ (Either of this or __name_keys__ is required)
+
  Specify field names of sending number.
 
 * __datetime_key__ (default: none)
+
  Specify field names of sending datetime if you need.
 
 * __datetime_key_format__ (required if specified __datetime_key__)
- Parse format for datetime of field specified datetime_key
+
+ Parse format for datetime of field specified datetime_key.
 
 * __datetime_format__ (default: %Y-%m-%d %H:%M:%S %z)
+
  Format of datetime POST parameter.
 
 * __remove_prefix__ (default:none)
 
+ Remove prefix from tag if specified.
+
 * __background_post__ (default:false)
+
+ Post to HRForecast in background thread, without retries for failures.
 
 * __ssl__ (default:false)
 
+ Use SSL (https) or not.
+
 * __verify_ssl__ (default:false)
+
+ Do SSL verification or not.
 
 * __timeout__ 
 
