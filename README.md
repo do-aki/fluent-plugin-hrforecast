@@ -1,5 +1,9 @@
 # Fluent::Plugin::Hrforecast
 
+[![Build Status](https://travis-ci.org/do-aki/fluent-plugin-hrforecast.svg?branch=master)](https://travis-ci.org/do-aki/fluent-plugin-hrforecast)
+
+[![Coverage Status](https://coveralls.io/repos/do-aki/fluent-plugin-hrforecast/badge.png?branch=master)](https://coveralls.io/r/do-aki/fluent-plugin-hrforecast?branch=master)
+
 fluentd output plugin for HRForecast
 
 ## Overview
