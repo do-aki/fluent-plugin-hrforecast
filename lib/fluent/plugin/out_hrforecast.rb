@@ -34,7 +34,7 @@ class Fluent::HRForecastOutput < Fluent::Output
 
   config_param :authentication, :string, :default => nil # nil or 'none' or 'basic'
   config_param :username, :string, :default => ''
-  config_param :password, :string, :default => ''
+  config_param :password, :string, :default => '', :secret => true
 
   # Define `log` method for v0.10.42 or earlier
   unless method_defined?(:log)
